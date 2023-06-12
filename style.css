@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  color: white;
+  box-sizing: border-box;
+  font-family: myfont;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+
+body {
+    background-color: #b69ab0;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 450px;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center; 
+
+}
+
+.activity {
+  background-color: #efc6ce;
+  width: 450px;
+  height: 250px;
+  text-align: center;
+  padding: 60px; 
+  font-size: 1.6rem;
+  line-height: 1.6;
+  box-shadow:0 0 100px 6px white;
+}
+
+.button {
+  border: none;
+  width: 130px;
+  height: 30px;
+  font-size: 1.1rem;
+  background-color: #dfb3dd;
+  cursor: pointer;
+  box-shadow:0 0 100px 6px white;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(assets/BebasNeue-Regular.ttf);
+}
